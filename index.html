@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ТИРАМИСУ | Жаркент — десерты, выпечка, торты и кофе</title>
+<meta name="description" content="Кондитерская ТИРАМИСУ в Жаркенте: тирамису, выпечка, торты и напитки. Заказ через WhatsApp.">
+<meta name="theme-color" content="#38251E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23593D30'/%3E%3Cpath d='M32 46C14 34 20 18 32 26 44 18 50 34 32 46Z' fill='%23FFF9F1'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ИНТРО: чашка кофе + молоко + латте-арт -->
+<div id="intro" aria-hidden="true">
+  <svg id="cupSvg" viewBox="0 0 320 340">
+    <defs>
+      <radialGradient id="crema" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#A86E45"/><stop offset=".55" stop-color="#7A4D33"/><stop offset="1" stop-color="#3F281E"/></radialGradient>
+      <radialGradient id="milkG" cx="45%" cy="40%" r="65%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1E2CF"/></radialGradient>
+      <linearGradient id="streamG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".3"/><stop offset=".25" stop-color="#fff"/><stop offset="1" stop-color="#FFF9F1"/></linearGradient>
+      <clipPath id="coffeeClip"><circle cx="160" cy="190" r="84"/></clipPath>
+      <filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000" flood-opacity=".35"/></filter>
+    </defs>
+    <g id="cup">
+      <circle cx="160" cy="190" r="128" fill="#F3E7D7" filter="url(#soft)"/>
+      <circle cx="160" cy="190" r="112" fill="none" stroke="#E6D3BC" stroke-width="2"/>
+      <rect x="248" y="176" width="58" height="28" rx="14" fill="#FFFFFF"/>
+      <circle cx="160" cy="190" r="98" fill="#FFFFFF"/>
+      <circle cx="160" cy="190" r="86" fill="#EDE2D4"/>
+      <g clip-path="url(#coffeeClip)">
+        <circle id="coffee" cx="160" cy="190" r="84" fill="url(#crema)"/>
+        <circle id="ripple" cx="160" cy="232" r="20" fill="none" stroke="#C8946A" stroke-width="2" opacity="0"/>
+        <circle id="milkBase" cx="160" cy="226" r="30" fill="url(#milkG)"/>
+        <g id="rosetta"><g transform="translate(160 238)"><path class="leaf" d="M-62.0 -3Q0 26 62.0 -3Q0 7 -62.0 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 227)"><path class="leaf" d="M-56.8 -3Q0 26 56.8 -3Q0 7 -56.8 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 216)"><path class="leaf" d="M-51.6 -3Q0 26 51.6 -3Q0 7 -51.6 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 205)"><path class="leaf" d="M-46.4 -3Q0 26 46.4 -3Q0 7 -46.4 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 194)"><path class="leaf" d="M-41.2 -3Q0 26 41.2 -3Q0 7 -41.2 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 183)"><path class="leaf" d="M-36.0 -3Q0 26 36.0 -3Q0 7 -36.0 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 172)"><path class="leaf" d="M-30.8 -3Q0 26 30.8 -3Q0 7 -30.8 -3Z" fill="#FFF9F1"/></g><g transform="translate(160 161)"><path class="leaf" d="M-25.6 -3Q0 26 25.6 -3Q0 7 -25.6 -3Z" fill="#FFF9F1"/></g>
+          <g transform="translate(160 146)"><path class="leaf" id="head" d="M0 20C-34-2-28-30 0-15 28-30 34-2 0 20Z" fill="#FFFFFF"/></g>
+        </g>
+        <path id="pull" d="M160 132 L160 250" stroke="#FFF9F1" stroke-width="3" stroke-linecap="round" fill="none"/>
+      </g>
+    </g>
+    <g id="pour">
+      <path id="stream" d="M236 30 C214 68 172 120 160 232" stroke="url(#streamG)" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <g id="pitcher"><path d="M214 0h70l-6 46c-1 10-9 16-19 16h-24c-10 0-18-6-19-16z" fill="#E9E4DD"/><path d="M214 0l-16 22 18 2z" fill="#D9D2C8"/><path d="M284 8c14 2 18 22 2 32" stroke="#D9D2C8" stroke-width="6" fill="none"/></g>
+    </g>
+    <g id="steam" stroke="#FFF9F1" stroke-width="3" stroke-linecap="round" fill="none" opacity="0">
+      <path d="M138 92c-10-14 10-22 0-38"/><path d="M162 86c-10-14 10-22 0-38"/><path d="M186 92c-10-14 10-22 0-38"/>
+    </g>
+  </svg>
+  <div class="intro-brand"><b>ТИРАМИСУ</b><span>Жаркент</span></div>
+  <button id="skipIntro" type="button" data-i18n="skip">Пропустить</button>
+</div>
+
+<header class="header" id="top">
+  <div class="wrap header-in">
+    <a href="#home" class="logo" aria-label="ТИРАМИСУ"><span class="logo-mark">T</span><span><b>ТИРАМИСУ</b><small>Жаркент</small></span></a>
+    <nav class="nav" id="nav" aria-label="Навигация"></nav>
+    <div class="head-actions">
+      <div class="lang" role="group" aria-label="Язык / Тіл"><button type="button" data-lang="ru">RU</button><button type="button" data-lang="kz">KZ</button></div>
+      <button class="cart-btn" id="cartBtn" type="button" aria-label="Корзина"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg><span id="cartCount">0</span></button>
+      <button class="burger" id="burger" type="button" aria-label="Меню" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <p class="eyebrow">ТИРАМИСУ · Жаркент</p>
+        <h1 id="heroTitle" data-i18n="heroTitle">Сладкие моменты начинаются здесь</h1>
+        <p class="lead" data-i18n="heroSub"></p>
+        <div class="hero-btns"><a href="#menu" class="btn shine" data-i18n="seeMenu">Посмотреть меню</a><button type="button" class="btn btn-ghost" id="heroOrder" data-i18n="makeOrder">Сделать заказ</button></div>
+      </div>
+      <div class="hero-art" id="heroArt"></div>
+    </div>
+  </section>
+
+  <section class="section" id="menu">
+    <div class="wrap">
+      <h2 class="title" data-i18n="menu">Меню</h2>
+      <div class="tools">
+        <label class="search"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="search" type="search" maxlength="40" data-i18n-ph="search"></label>
+        <select id="sort" aria-label="Сортировка"><option value="" data-i18n="sortDef"></option><option value="asc" data-i18n="sortAsc"></option><option value="desc" data-i18n="sortDesc"></option></select>
+      </div>
+      <div class="chips" id="chips" role="tablist"></div>
+      <div id="catalog"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="about">
+    <div class="wrap about">
+      <div class="about-pics" id="aboutPics"></div>
+      <div><h2 class="title left" data-i18n="aboutTitle"></h2><p class="lead" data-i18n="aboutText"></p><p class="lead" id="story"></p></div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <h2 class="title" data-i18n="gallery">Галерея</h2>
+      <div class="chips" id="galChips"></div>
+      <div class="gallery" id="galGrid"></div>
+    </div>
+  </section>
+
+  <section class="section alt" id="social">
+    <div class="wrap center"><h2 class="title" data-i18n="social"></h2><div class="socials" id="socials"></div></div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="wrap contacts">
+      <div>
+        <h2 class="title left" data-i18n="contacts">Контакты</h2>
+        <ul class="info">
+          <li><b>ТИРАМИСУ</b></li>
+          <li><span data-i18n="city"></span>: <span data-i18n="cityVal"></span></li>
+          <li>WhatsApp: <a id="cPhone" target="_blank" rel="noopener"></a></li>
+          <li><span data-i18n="address"></span>: <span id="cAddr"></span></li>
+          <li><span data-i18n="hours"></span>: <span id="cHours"></span></li>
+        </ul>
+      </div>
+      <div class="map" id="mapBox"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div><b class="foot-logo">ТИРАМИСУ | Жаркент</b><p data-i18n="heroTitle"></p></div>
+    <div><h4 data-i18n="links"></h4><a href="#home" data-i18n="home"></a><a href="#menu" data-i18n="menu"></a><a href="#about" data-i18n="about"></a><a href="#contacts" data-i18n="contacts"></a><a href="#" class="js-cart" data-i18n="cart"></a></div>
+    <div><h4 data-i18n="contacts"></h4><a id="fPhone" target="_blank" rel="noopener"></a><div class="socials small" id="fSocials"></div></div>
+    <div><h4 data-i18n="docs"></h4><a href="privacy.html" data-i18n="privacy"></a><a href="offer.html" data-i18n="offer"></a></div>
+  </div>
+  <p class="copy">© 2026 ТИРАМИСУ. <span data-i18n="rights"></span></p>
+</footer>
+
+<button id="toTop" class="to-top" type="button" aria-label="Наверх">↑</button>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- Окно товара -->
+<div class="modal" id="productModal" role="dialog" aria-modal="true" aria-labelledby="pmName"><div class="modal-box product-box" id="pmBox"></div></div>
+<!-- Корзина -->
+<aside class="drawer" id="cart" aria-label="Корзина"><div class="drawer-box" id="cartBox"></div></aside>
+<!-- Оформление -->
+<div class="modal" id="checkout" role="dialog" aria-modal="true"><div class="modal-box" id="coBox"></div></div>
+<!-- Просмотр фото -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true"><button type="button" class="lb-close" aria-label="Закрыть">×</button><div id="lbContent"></div></div>
+<!-- Уведомление о хранении данных -->
+<div class="notice" id="notice"><span data-i18n="cookie"></span> <a href="privacy.html" data-i18n="more"></a><button type="button" class="btn small" id="noticeOk">OK</button></div>
+
+<script src="vendor/anime.min.js"></script>
+<script src="config.js"></script>
+<script src="data.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
